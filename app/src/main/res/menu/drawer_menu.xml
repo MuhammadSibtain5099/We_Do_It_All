@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single" >
+     <item android:id="@+id/menu_home"
+         android:title="Home"
+         android:icon="@drawable/home"
+         />
+    <item android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/general_profile"
+        />
+    <item android:id="@+id/service"
+        android:title="Our Services"
+        android:icon="@drawable/secure_search"
+        />
+
+    <item android:id="@+id/menu_overall_reviews"
+        android:title="Overall Reviews"
+        android:icon="@drawable/reviews"
+        />
+        <item android:id="@+id/share"
+            android:title="About Us"
+            android:icon="@drawable/person_grey"
+            android:iconTint="#D9E1E2"/>
+
+        <item android:id="@+id/contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/person_grey"
+            android:iconTint="#D9E1E2"/>
+        <item android:id="@+id/menu_yelp_feedback"
+            android:title="FeedBack"
+            android:icon="@drawable/yelp"
+            />
+    <item android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/clock_out"
+        />
+    </group>
+</menu>

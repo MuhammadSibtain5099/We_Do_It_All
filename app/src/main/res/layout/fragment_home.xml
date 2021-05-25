@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home"
+    android:background="@color/white"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_slider_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/large"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btneme"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv_slider_mainActivity"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/primaryDark"
+        android:text="Emergency"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/btnservice"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btneme"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/primaryDark"
+        android:text="Find BY Location"
+        android:textSize="23dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Can't find what you are\n looking for? out \n
+I maybe of help."
+    android:textColor="@color/primaryDark"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="29dp"
+    android:textSize="20dp"/>
+</RelativeLayout>

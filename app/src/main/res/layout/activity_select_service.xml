@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7ECF6"
+    tools:context=".Emergency">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tootbar"
+        app:title="Emergency"
+
+        android:background="#0D3657"
+        app:titleTextColor="#fff"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+<Spinner
+android:id="@+id/spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:layout_marginTop="100dp"
+    android:layout_marginHorizontal="100dp"
+
+    />
+    <Button
+        android:id="@+id/btnCnfrm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/primaryLight"/>
+    <Button
+
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCnfrm"
+        android:text="Back"
+
+        android:textColor="@color/primaryLight"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/white"/>
+
+</RelativeLayout>

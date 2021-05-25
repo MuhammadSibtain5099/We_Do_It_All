@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7ECF6"
+    tools:context=".Emergency">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/tootbar"
+        app:title="Emergency"
+
+        android:background="#0D3657"
+        app:titleTextColor="#fff"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edtLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/rounded"
+        android:drawablePadding="50dp"
+        android:editable="false"
+        android:text="Click for Location"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:drawableRight="@drawable/ic_baseline_add_location_alt_24"
+        />
+    <EditText
+        android:id="@+id/edtPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded"
+        android:drawablePadding="50dp"
+        android:layout_below="@+id/edtLoc"
+        android:hint="Enter your Problem"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp"
+        />
+<Button
+    android:id="@+id/btnCnfrm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/edtPro"
+    android:text="Confirm"
+    android:textColor="@color/white"
+    android:layout_marginHorizontal="50dp"
+    android:layout_marginTop="60dp"
+    android:backgroundTint="@color/primaryLight"/>
+    <Button
+
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCnfrm"
+        android:text="Back"
+
+        android:textColor="@color/primaryLight"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/white"/>
+
+</RelativeLayout>
