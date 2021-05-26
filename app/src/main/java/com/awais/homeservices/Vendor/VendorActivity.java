@@ -1,8 +1,10 @@
-package com.awais.homeservices;
+package com.awais.homeservices.Vendor;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.awais.homeservices.R;
 
 public class VendorActivity extends AppCompatActivity {
 

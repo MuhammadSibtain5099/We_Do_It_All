@@ -1,4 +1,4 @@
-package com.awais.homeservices;
+package com.awais.homeservices.User;
 
 
 public class User {

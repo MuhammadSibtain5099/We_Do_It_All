@@ -3,7 +3,8 @@ package com.awais.homeservices;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.text.style.IconMarginSpan;
+
+import com.awais.homeservices.User.User;
 
 public class SharedPrefManager {
 
