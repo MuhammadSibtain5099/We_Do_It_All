@@ -28,7 +28,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeServices"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Vendor.add_vendor"></activity>
+        <activity android:name=".Chat">
+
+        </activity>
+        <activity android:name=".VideoCall">
+
+        </activity>
+        <activity android:name=".Vendor.EditProfile" />
+        <activity android:name=".Vendor.add_vendor" />
         <activity android:name=".Vendor.Vendor_SignUp" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

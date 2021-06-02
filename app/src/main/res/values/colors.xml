@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primaryDark">#0575a9</color>
     <color name="primaryLight">#0575a9</color>
-
+    <color name="green_500">#009688</color>
     <color name="color_material_metaphor">#039BE5</color>
     <color name="color_material_bold">#EC407A</color>
     <color name="color_material_motion">#6A1B9A</color>

@@ -30,8 +30,9 @@ public class VendorLogin extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),VendorActivity.class);
+            intent.putExtra("id","10");
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         onOffSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -40,6 +41,7 @@ public class VendorLogin extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                if (!isChecked){
                    Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+
                    startActivity(intent);
                    finish();
                }

@@ -1,9 +1,9 @@
 package com.awais.homeservices.Model;
 
 public class Vendor {
-    String id,f_name,l_name,cnic,serviceId,email,phoneno,address;
+    String id,f_name,l_name,cnic,serviceId,email,phoneno,address,status;
 
-    public Vendor(String id, String f_name, String l_name, String cnic, String serviceId, String email, String phoneno, String address) {
+    public Vendor(String id, String f_name, String l_name, String cnic, String serviceId, String email, String phoneno, String address,String status) {
         this.id = id;
         this.f_name = f_name;
         this.l_name = l_name;
@@ -12,6 +12,7 @@ public class Vendor {
         this.email = email;
         this.phoneno = phoneno;
         this.address = address;
+        this.status = status;
     }
 
     public String getId() {
@@ -29,7 +30,10 @@ public class Vendor {
     public void setF_name(String f_name) {
         this.f_name = f_name;
     }
+    public String getStatus(){
 
+        return status.equals("0")?"Pending":status.equals("1")?"Approved":"Rejected";
+    }
     public String getL_name() {
         return l_name;
     }
